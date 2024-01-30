@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Slider Gallery</title>
+</head>
+<body>
+    <main>
+        <div class="slide bg1"></div>
+        <div class="slide bg2"></div>
+        <div class="slide bg3"></div>
+        <div class="slide bg4"></div>
+        <div class="slide bg5"></div>
+        <div class="slide bg6"></div>
+        <div class="slide bg7"></div>
+    </main>
+    <button  class="left"><i class="fa-solid fa-chevron-left"></i></button>
+    <button  class="right"><i class="fa-solid fa-chevron-right"></i></button>
+    <div class="wrapper">
+        <div class="image-item bg1" onclick="setImage(0)"></div>
+        <div class="image-item bg2" onclick="setImage(1)"></div>
+        <div class="image-item bg3" onclick="setImage(2)"></div>
+        <div class="image-item bg4" onclick="setImage(3)"></div>
+        <div class="image-item bg5" onclick="setImage(4)"></div>
+        <div class="image-item bg6" onclick="setImage(5)"></div>
+        <div class="image-item bg7" onclick="setImage(6)"></div>
+        <!-- <div class="image-item bg8" onclick="changeImageByIndex(7)"></div> -->
+    </div>
+    <script src="script.js"></script>

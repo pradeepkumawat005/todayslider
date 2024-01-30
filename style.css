@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+
+main {
+    width: 80%;
+    height: 550px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.slide {
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: 100% 100%;
+    min-width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+    transition: 1s;
+}
+
+
+.left {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    font-size: 3rem;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.right {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    font-size: 3rem;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.bg1 {
+    background-image: url('https://cdn.pixabay.com/photo/2023/12/03/18/47/indian-8428022_1280.jpg');
+}
+
+.bg2 {
+    background-image: url('https://cdn.pixabay.com/photo/2017/01/07/19/42/incense-1961430_1280.jpg');
+}
+
+.bg3 {
+    background-image: url('https://cdn.pixabay.com/photo/2018/01/25/14/12/nature-3106213_1280.jpg');
+}
+
+.bg4 {
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/29/04/18/hot-air-balloons-1867279_1280.jpg');
+}
+
+.bg5 {
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/23/15/48/audience-1853662_1280.jpg');
+}
+
+.bg6 {
+    background-image: url('https://cdn.pixabay.com/photo/2014/03/28/21/39/holi-300343_1280.jpg');
+}
+
+.bg7 {
+    background-image: url('https://cdn.pixabay.com/photo/2018/03/03/06/26/girl-3194977_1280.jpg');
+}
+.bg8 {
+    background-image: url('https://cdn.pixabay.com/photo/2019/03/19/09/58/dreamcatcher-4065288_1280.jpg');
+}
+
+
+/* second slider */
+.wrapper{
+    max-width:80% ;
+    border: 1px solid black;
+    display: flex;
+    overflow-x: auto;
+    margin:auto;
+    margin-top: 20px;
+
+}
+
+.wrapper .image-item{
+    min-width: 200px;
+    height: 130px;
+    line-height: 110px;
+    text-align: center;
+    background-color: white;
+    margin-right: 10px;
+    object-fit: cover;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+}
+
+
+.wrapper::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+.wrapper::-webkit-scrollbar-track {
+    visibility: hidden;
+  }
+
